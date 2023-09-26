@@ -1,0 +1,142 @@
+2023-09-26 00:35:42,072 p=3275 u=ec2-user n=ansible | 172.31.46.157 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.46.157 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:35:42,073 p=3275 u=ec2-user n=ansible | 172.31.31.183 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.31.183 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:35:42,076 p=3275 u=ec2-user n=ansible | 172.31.20.238 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.20.238 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:35:42,078 p=3275 u=ec2-user n=ansible | 172.31.16.58 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.16.58 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:36:28,541 p=3405 u=ec2-user n=ansible | 172.31.31.183 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.31.183 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:36:28,542 p=3405 u=ec2-user n=ansible | 172.31.46.157 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.46.157 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:36:28,577 p=3405 u=ec2-user n=ansible | 172.31.20.238 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.20.238 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:36:28,577 p=3405 u=ec2-user n=ansible | 172.31.16.58 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.16.58 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:50:14,576 p=3638 u=ec2-user n=ansible | 172.31.31.183 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.31.183 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:50:14,589 p=3638 u=ec2-user n=ansible | 172.31.20.238 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.20.238 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:50:14,603 p=3638 u=ec2-user n=ansible | 172.31.16.58 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.16.58 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:50:14,615 p=3638 u=ec2-user n=ansible | 172.31.46.157 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.46.157 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:52:58,633 p=3795 u=ec2-user n=ansible | 172.31.70.197 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2023-09-26 00:52:59,924 p=3795 u=ec2-user n=ansible | 172.31.77.71 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-09-26 00:53:06,993 p=3795 u=ec2-user n=ansible | 172.31.16.58 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.16.58 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:53:07,027 p=3795 u=ec2-user n=ansible | 172.31.46.157 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.46.157 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-09-26 00:54:11,945 p=3962 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with
+auto plugin: We were unable to read either as JSON nor YAML, these are the
+errors we got from each: JSON: Expecting value: line 1 column 2 (char 1)
+Syntax Error while loading YAML.   did not find expected <document start>  The
+error appears to be in '/home/ec2-user/ansible-dev/inventory.yml': line 2,
+column 1, but may be elsewhere in the file depending on the exact syntax
+problem.  The offending line appears to be:  [ws] 172.31.77.71 ^ here
+
+2023-09-26 00:54:11,946 p=3962 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with
+yaml plugin: We were unable to read either as JSON nor YAML, these are the
+errors we got from each: JSON: Expecting value: line 1 column 2 (char 1)
+Syntax Error while loading YAML.   did not find expected <document start>  The
+error appears to be in '/home/ec2-user/ansible-dev/inventory.yml': line 2,
+column 1, but may be elsewhere in the file depending on the exact syntax
+problem.  The offending line appears to be:  [ws] 172.31.77.71 ^ here
+
+2023-09-26 00:54:11,946 p=3962 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with ini
+plugin: /home/ec2-user/ansible-dev/inventory.yml:20: Section [qa:vars] not
+valid for undefined group: qa
+
+2023-09-26 00:54:11,947 p=3962 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/ansible-dev/inventory.yml as an
+inventory source
+
+2023-09-26 00:54:11,947 p=3962 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-09-26 00:55:59,975 p=4073 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with
+auto plugin: We were unable to read either as JSON nor YAML, these are the
+errors we got from each: JSON: Expecting value: line 1 column 2 (char 1)
+Syntax Error while loading YAML.   did not find expected <document start>  The
+error appears to be in '/home/ec2-user/ansible-dev/inventory.yml': line 2,
+column 1, but may be elsewhere in the file depending on the exact syntax
+problem.  The offending line appears to be:  [ws] 172.31.77.71 ^ here
+
+2023-09-26 00:55:59,975 p=4073 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with
+yaml plugin: We were unable to read either as JSON nor YAML, these are the
+errors we got from each: JSON: Expecting value: line 1 column 2 (char 1)
+Syntax Error while loading YAML.   did not find expected <document start>  The
+error appears to be in '/home/ec2-user/ansible-dev/inventory.yml': line 2,
+column 1, but may be elsewhere in the file depending on the exact syntax
+problem.  The offending line appears to be:  [ws] 172.31.77.71 ^ here
+
+2023-09-26 00:55:59,975 p=4073 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with ini
+plugin: /home/ec2-user/ansible-dev/inventory.yml:20: Section [prometheus:vars]
+not valid for undefined group: prometheus
+
+2023-09-26 00:55:59,976 p=4073 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/ansible-dev/inventory.yml as an
+inventory source
+
+2023-09-26 00:55:59,976 p=4073 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-09-26 00:56:59,518 p=4146 u=ec2-user n=ansible | 172.31.70.197 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2023-09-26 00:56:59,526 p=4146 u=ec2-user n=ansible | 172.31.77.71 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
